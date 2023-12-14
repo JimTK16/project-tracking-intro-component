@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>Project tracking intro component</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="section-navigation">
+        <div class="section-navigation-wrapper">
+          <div class="navigation-mobile">
+            <header class="header-mobile">
+              <img
+                src="images/logo.svg"
+                alt="Project tracking Logo"
+                width="32"
+                height="32"
+                class="logo-mobile"
+              />
+              <button
+                class="btn-menu btn-menu-close"
+                type="button"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                  >
+                    <path
+                      fill="#242942"
+                      fill-rule="evenodd"
+                      d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z"
+                    />
+                  </svg>
+                </span>
+              </button>
+              <button
+                class="btn-menu btn-menu-open"
+                type="button"
+                aria-label="Open"
+              >
+                <span aria-hidden="true">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="16"
+                  >
+                    <g fill="#242942" fill-rule="evenodd">
+                      <path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z" />
+                    </g>
+                  </svg>
+                </span>
+              </button>
+            </header>
+
+            <div class="drawer-mobile">
+              <a href="#" class="nav-link">Product</a>
+              <a href="#" class="nav-link">Features</a>
+              <a href="#" class="nav-link">Pricing</a>
+              <div class="divider-mobile"></div>
+              <a href="#" class="nav-link login">Login</a>
+            </div>
+          </div>
+
+          <div class="navigation-desktop">
+            <div class="nav-bar">
+              <a href="#" class="nav-link">Product</a>
+              <a href="#" class="nav-link">Features</a>
+              <a href="#" class="nav-link">Pricing</a>
+              <div class="divider-desktop"></div>
+              <a href="#" class="nav-link login">Login</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-info">
+        <img
+          src="images/logo.svg"
+          alt="Project tracking Logo"
+          width="32"
+          height="32"
+          class="logo-desktop"
+        />
+
+        <div class="info-wrapper">
+          <div class="status-wrapper">
+            <span>New</span>
+            <small>Monograph Dashboard</small>
+          </div>
+          <h1 class="info-h1">Powerful insights into your team</h1>
+          <p class="info-p">
+            Project planning and time tracking for agile teams
+          </p>
+        </div>
+
+        <div class="action-wrapper">
+          <button class="btn-schedule">Schedule a demo</button>
+          <p>to see a live preview</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
